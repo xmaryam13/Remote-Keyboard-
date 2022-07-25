@@ -7,7 +7,7 @@ from pynput.keyboard import Key, Controller
 
 SERVER = None
 PORT = 8000
-IP_ADDRESS = '192.168.0.1'
+IP_ADDRESS = input("Enter your computer IP ADDR : ").strip()
 screen_width = None
 screen_height = None
 keyboard = Controller()
